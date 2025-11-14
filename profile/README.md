@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://tempestphp.com">
-    <img src="../.github/tempest-logo.svg" width="100" />
+    <img src="../logo_current/tempest-logo.png" width="100" />
   </a>
 </p>
 
