@@ -7,14 +7,14 @@ body:
   attributes:
     label: Tempest version
     description: Provide the Tempest version that you are using.
-    value: 1.0-alpha.6
+    value: 3.0
   validations:
     required: true
 - type: dropdown
   attributes:
     label: PHP version
     description: Provide the PHP version that you are using.
-    options: ['8.4']
+    options: ['8.4', '8.5']
     multiple: true
   validations:
     required: true
@@ -30,11 +30,5 @@ body:
   attributes:
     label: Description
     description: Please provide a detailed description of the issue you are running into.
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Steps to reproduce
-    description: Please provide detailed steps on how we can reproduce the issue you are reporting. For a shot at getting our "Perfect storm" label, submit a PR with a failing test!
   validations:
     required: true
