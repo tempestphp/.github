@@ -7,7 +7,7 @@ body:
   attributes:
     label: Tempest version
     description: Provide the Tempest version that you are using.
-    value: 3.0
+    value: 1.0-alpha.6
   validations:
     required: true
 - type: dropdown
