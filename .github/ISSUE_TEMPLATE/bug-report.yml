@@ -15,7 +15,6 @@ body:
     label: PHP version
     description: Provide the PHP version that you are using.
     options: ['8.4', '8.5']
-    value: ['8.5']
     multiple: true
   validations:
     required: true
